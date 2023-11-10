@@ -1,0 +1,237 @@
+Request method:	GET
+1Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+%Date: Fri, 10 Nov 2023 10:19:46 GMT
+/Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+ÕReport-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1698730263&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=8ENI%2B35rrPkB6g%2BCR5kRslFSa3PIE7Agbt7YuHKWePY%3D"}]}
+¬Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1698730263&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=8ENI%2B35rrPkB6g%2BCR5kRslFSa3PIE7Agbt7YuHKWePY%3D
+|Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+ Access-Control-Allow-Origin: *
++Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 2738
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 823d8f1ece755b2d-VIE
+Content-Encoding: gzip
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+
+        {
+            "id": 7,
+1            "email": "michael.lawson@reqres.in",
+%            "first_name": "Michael",
+#            "last_name": "Lawson",
+@            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+
+        {
+            "id": 8,
+3            "email": "lindsay.ferguson@reqres.in",
+%            "first_name": "Lindsay",
+%            "last_name": "Ferguson",
+@            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+
+        {
+            "id": 9,
+/            "email": "tobias.funke@reqres.in",
+$            "first_name": "Tobias",
+"            "last_name": "Funke",
+@            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+
+        {
+            "id": 10,
+/            "email": "byron.fields@reqres.in",
+#            "first_name": "Byron",
+#            "last_name": "Fields",
+A            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+
+        {
+            "id": 11,
+1            "email": "george.edwards@reqres.in",
+$            "first_name": "George",
+$            "last_name": "Edwards",
+A            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+
+        {
+            "id": 12,
+0            "email": "rachel.howell@reqres.in",
+$            "first_name": "Rachel",
+#            "last_name": "Howell",
+A            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+
+        }
+    ],
+    "support": {
+5        "url": "https://reqres.in/#support-heading",
+[        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+Request method:	PATCH
+,Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "michael",
+    "job": "leader"
+}
+HTTP/1.1 200 OK
+%Date: Fri, 10 Nov 2023 10:19:46 GMT
+/Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+ÓReport-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1699611586&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=2DY4E7s2CZ0wj9ZhNmVpZ6lL8RG%2FmqzFCpUXhWBfK1k%3D"}]}
+ªReporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1699611586&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=2DY4E7s2CZ0wj9ZhNmVpZ6lL8RG%2FmqzFCpUXhWBfK1k%3D
+|Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+ Access-Control-Allow-Origin: *
+*Etag: W/"48-CrbPHnL7S3yoKLDbzfeWdcS1VLc"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 823d8f2218335b79-VIE
+Content-Encoding: gzip
+
+{
+    "name": "michael",
+    "job": "leader",
+,    "updatedAt": "2023-11-10T10:19:46.969Z"
+}
+Request method:	PUT
+,Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "john",
+    "job": "leader"
+}
+HTTP/1.1 200 OK
+%Date: Fri, 10 Nov 2023 10:19:48 GMT
+/Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+×Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1699611587&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=R%2Bv7hFuBl2fJTXdJqD7E6tJrEA1N%2BkmgGRZssuVz%2Fsc%3D"}]}
+®Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1699611587&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=R%2Bv7hFuBl2fJTXdJqD7E6tJrEA1N%2BkmgGRZssuVz%2Fsc%3D
+|Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+ Access-Control-Allow-Origin: *
+*Etag: W/"45-F46RO1wWC0c13iQy26aF64ZTd3U"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 823d8f287e0e5b27-VIE
+Content-Encoding: gzip
+
+{
+    "name": "john",
+    "job": "leader",
+,    "updatedAt": "2023-11-10T10:19:47.998Z"
+}
+Request method:	GET
+,Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+%Date: Fri, 10 Nov 2023 10:19:48 GMT
+/Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+ÕReport-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1699294110&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=v%2F3k0iii3dif0HYbvBF8MDl5O%2FsLx4yDB23qvTTJrLg%3D"}]}
+¬Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1699294110&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=v%2F3k0iii3dif0HYbvBF8MDl5O%2FsLx4yDB23qvTTJrLg%3D
+|Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+ Access-Control-Allow-Origin: *
++Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+
+Age: 104
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 823d8f2add345b9a-VIE
+Content-Encoding: gzip
+
+{
+    "data": {
+        "id": 2,
++        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+<        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+5        "url": "https://reqres.in/#support-heading",
+[        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+Request method:	POST
+*Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+HTTP/1.1 201 Created
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "419",
+,    "createdAt": "2023-11-10T10:19:48.623Z"
+}

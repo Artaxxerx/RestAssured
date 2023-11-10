@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class RestAssuredTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class RestAssuredTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; RestAssuredTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.209s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">checkNameOfNewUser()</td>
+<td class="success">0.359s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">checkUsersPageStatus()</td>
+<td class="success">2.095s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getUser()</td>
+<td class="success">0.247s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">setUserNewNameUsingPatch()</td>
+<td class="success">1.115s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">setUserNewNameUsingPut()</td>
+<td class="success">0.393s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Date: Fri, 10 Nov 2023 10:19:46 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1698730263&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=8ENI%2B35rrPkB6g%2BCR5kRslFSa3PIE7Agbt7YuHKWePY%3D&quot;}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1698730263&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=8ENI%2B35rrPkB6g%2BCR5kRslFSa3PIE7Agbt7YuHKWePY%3D
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;406-ut0vzoCuidvyMf8arZpMpJ6ZRDw&quot;
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 2738
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 823d8f1ece755b2d-VIE
+Content-Encoding: gzip
+
+{
+    &quot;page&quot;: 2,
+    &quot;per_page&quot;: 6,
+    &quot;total&quot;: 12,
+    &quot;total_pages&quot;: 2,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 7,
+            &quot;email&quot;: &quot;michael.lawson@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Michael&quot;,
+            &quot;last_name&quot;: &quot;Lawson&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/7-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 8,
+            &quot;email&quot;: &quot;lindsay.ferguson@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Lindsay&quot;,
+            &quot;last_name&quot;: &quot;Ferguson&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/8-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 9,
+            &quot;email&quot;: &quot;tobias.funke@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Tobias&quot;,
+            &quot;last_name&quot;: &quot;Funke&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/9-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 10,
+            &quot;email&quot;: &quot;byron.fields@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Byron&quot;,
+            &quot;last_name&quot;: &quot;Fields&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/10-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 11,
+            &quot;email&quot;: &quot;george.edwards@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;George&quot;,
+            &quot;last_name&quot;: &quot;Edwards&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/11-image.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 12,
+            &quot;email&quot;: &quot;rachel.howell@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Rachel&quot;,
+            &quot;last_name&quot;: &quot;Howell&quot;,
+            &quot;avatar&quot;: &quot;https://reqres.in/img/faces/12-image.jpg&quot;
+        }
+    ],
+    &quot;support&quot;: {
+        &quot;url&quot;: &quot;https://reqres.in/#support-heading&quot;,
+        &quot;text&quot;: &quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;
+    }
+}
+Request method:	PATCH
+Request URI:	https://reqres.in/api/users/2
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;name&quot;: &quot;michael&quot;,
+    &quot;job&quot;: &quot;leader&quot;
+}
+HTTP/1.1 200 OK
+Date: Fri, 10 Nov 2023 10:19:46 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1699611586&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=2DY4E7s2CZ0wj9ZhNmVpZ6lL8RG%2FmqzFCpUXhWBfK1k%3D&quot;}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1699611586&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=2DY4E7s2CZ0wj9ZhNmVpZ6lL8RG%2FmqzFCpUXhWBfK1k%3D
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;48-CrbPHnL7S3yoKLDbzfeWdcS1VLc&quot;
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 823d8f2218335b79-VIE
+Content-Encoding: gzip
+
+{
+    &quot;name&quot;: &quot;michael&quot;,
+    &quot;job&quot;: &quot;leader&quot;,
+    &quot;updatedAt&quot;: &quot;2023-11-10T10:19:46.969Z&quot;
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;name&quot;: &quot;john&quot;,
+    &quot;job&quot;: &quot;leader&quot;
+}
+HTTP/1.1 200 OK
+Date: Fri, 10 Nov 2023 10:19:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1699611587&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=R%2Bv7hFuBl2fJTXdJqD7E6tJrEA1N%2BkmgGRZssuVz%2Fsc%3D&quot;}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1699611587&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=R%2Bv7hFuBl2fJTXdJqD7E6tJrEA1N%2BkmgGRZssuVz%2Fsc%3D
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;45-F46RO1wWC0c13iQy26aF64ZTd3U&quot;
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 823d8f287e0e5b27-VIE
+Content-Encoding: gzip
+
+{
+    &quot;name&quot;: &quot;john&quot;,
+    &quot;job&quot;: &quot;leader&quot;,
+    &quot;updatedAt&quot;: &quot;2023-11-10T10:19:47.998Z&quot;
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users/2
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Date: Fri, 10 Nov 2023 10:19:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1699294110&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=v%2F3k0iii3dif0HYbvBF8MDl5O%2FsLx4yDB23qvTTJrLg%3D&quot;}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1699294110&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=v%2F3k0iii3dif0HYbvBF8MDl5O%2FsLx4yDB23qvTTJrLg%3D
+Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;118-pbdwwFo9SKNhD3Lx5iHJyngpq00&quot;
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 104
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 823d8f2add345b9a-VIE
+Content-Encoding: gzip
+
+{
+    &quot;data&quot;: {
+        &quot;id&quot;: 2,
+        &quot;email&quot;: &quot;janet.weaver@reqres.in&quot;,
+        &quot;first_name&quot;: &quot;Janet&quot;,
+        &quot;last_name&quot;: &quot;Weaver&quot;,
+        &quot;avatar&quot;: &quot;https://reqres.in/img/faces/2-image.jpg&quot;
+    },
+    &quot;support&quot;: {
+        &quot;url&quot;: &quot;https://reqres.in/#support-heading&quot;,
+        &quot;text&quot;: &quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;
+    }
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;name&quot;: &quot;morpheus&quot;,
+    &quot;job&quot;: &quot;leader&quot;
+}
+HTTP/1.1 201 Created
+{
+    &quot;name&quot;: &quot;morpheus&quot;,
+    &quot;job&quot;: &quot;leader&quot;,
+    &quot;id&quot;: &quot;419&quot;,
+    &quot;createdAt&quot;: &quot;2023-11-10T10:19:48.623Z&quot;
+}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at 10 нояб. 2023 г., 13:19:49</p>
+</div>
+</div>
+</body>
+</html>

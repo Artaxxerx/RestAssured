@@ -1,3 +1,8 @@
+package tests;
+
+import models.CheckNameOfNewUserModel;
+import models.SetUserNewNameUsingPutModel;
+import models.setUserNewNameUsingPatchModel;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
@@ -20,11 +25,14 @@ public class RestAssuredTests {
 
         @Test
         void checkNameOfNewUser() {
-            String request_body = "{ \"name\": \"morpheus\", \"job\": \"leader\" }";
+            CheckNameOfNewUserModel requestBody = new CheckNameOfNewUserModel();
+            requestBody.setName("morpheus");
+            requestBody.setJob("leader");
+
             given()
                     .log().all()
                     .contentType(JSON)
-                    .body(request_body)
+                    .body(requestBody)
                     .when()
                     .post("https://reqres.in/api/users")
                     .then()
@@ -47,11 +55,14 @@ public class RestAssuredTests {
 
         @Test
         void setUserNewNameUsingPut() {
-            String request_body = "{ \"name\": \"john\", \"job\": \"leader\" }";
+            SetUserNewNameUsingPutModel requestBodyUserNamePut = new SetUserNewNameUsingPutModel();
+            requestBodyUserNamePut.setName("john");
+            requestBodyUserNamePut.setJob("leader");
+
             given()
                     .log().all()
                     .contentType(JSON)
-                    .body(request_body)
+                    .body(requestBodyUserNamePut)
                     .when()
                     .put("https://reqres.in/api/users/2")
                     .then()
@@ -62,11 +73,14 @@ public class RestAssuredTests {
 
         @Test
         void setUserNewNameUsingPatch() {
-            String request_body = "{ \"name\": \"michael\", \"job\": \"leader\" }";
+            setUserNewNameUsingPatchModel requestBodyForUserNameUsingPatch = new setUserNewNameUsingPatchModel();
+            requestBodyForUserNameUsingPatch.setName("michael");
+            requestBodyForUserNameUsingPatch.setJob("engineer");
+
             given()
                     .log().all()
                     .contentType(JSON)
-                    .body(request_body)
+                    .body(requestBodyForUserNameUsingPatch)
                     .when()
                     .patch("https://reqres.in/api/users/2")
                     .then()
